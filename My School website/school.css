@@ -1,0 +1,115 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e3a8a; /* Dark Blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e63946; /* Red */
+}
+
+/* Section Styling */
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Section Titles */
+h2 {
+    color: #1e3a8a; /* Dark Blue */
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+/* Text Styling */
+p, ul {
+    color: #333;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Label Styling */
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input, Textarea, and Button Styling */
+input, textarea, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1e3a8a; /* Dark Blue */
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #e63946; /* Red */
+}
+
+/* Button Styling */
+button {
+    background-color: #1e3a8a; /* Dark Blue */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e63946; /* Red */
+}
+
+/* Contact Form and Section Spacing */
+#contact {
+    background-color: #e0e7ff; /* Light Blue */
+    padding: 30px 0;
+}
+
+#contactForm {
+    max-width: 500px;
+    margin: auto;
+}
